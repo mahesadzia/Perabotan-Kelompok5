@@ -1,4 +1,3 @@
-/* --- Reset Global --- */
 body {
     font-family: 'Segoe UI', Arial, sans-serif; /* Font yang lebih modern */
     margin: 0;
@@ -8,7 +7,6 @@ body {
     background-color: #f4f4f4;
 }
 
-/* --- Gaya Sidebar (Biru) --- */
 .sidebar {
     width: 250px;
     background-color: #337ab7; /* Biru AdminLTE standard */
@@ -63,7 +61,6 @@ body {
     line-height: 1.5; /* Rata vertikal */
 }
 
-/* --- Gaya Konten Utama (Abu-abu) --- */
 .main-content {
     flex: 1; /* Mengambil sisa ruang horizontal */
     padding: 25px;
@@ -94,7 +91,6 @@ body {
     color: #888;
 }
 
-/* --- Gaya Kartu Informasi (Warna-warni) --- */
 .card-container {
     display: flex;
     gap: 20px;
@@ -113,7 +109,6 @@ body {
     align-items: center; /* Konten utama di tengah */
 }
 
-/* Ikon Utama Besar di Kartu */
 .main-card-icon {
     font-size: 3rem; 
     margin-bottom: 15px;
@@ -126,26 +121,22 @@ body {
     font-size: 1.5rem;
 }
 
-/* Warna Kartu */
 .card.blue { background-color: #337ab7; }
 .card.green { background-color: #5cb85c; }
 .card.red { background-color: #d9534f; }
 .card.orange { background-color: #f0ad4e; }
 
-/* --- PERUBAHAN: Tombol "More Info" agar SEJAJAR & Panah KECIL --- */
 .more-info-btn {
     color: #fff;
     text-decoration: none;
     font-size: 0.9rem;
     margin-top: auto; /* Memaksa tombol ke dasar kartu */
     
-    /* MENGAKTIFKAN FLEXBOX UNTUK PENYEJAJARAN HORIZONTAL */
     display: flex;
     align-items: center; /* Sejajar Vertikal */
     justify-content: center; /* Mengetengahkan di kartu */
     gap: 6px; /* Jarak antara teks dan ikon panah */
     
-    /* Gaya visual tambahan tombol */
     background-color: rgba(0, 0, 0, 0.1); 
     padding: 8px 15px;
     border-radius: 20px; /* Sudut membulat pill */
@@ -157,12 +148,10 @@ body {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-/* Properti khusus untuk memperkecil panah */
 .small-arrow {
     font-size: 0.9rem; /* Ukurannya sama dengan teks, tidak lagi besar */
 }
 
-/* --- Gaya Panel Informasi Bawah (Putih) --- */
 .info-container {
     display: flex;
     gap: 20px;
