@@ -15,8 +15,7 @@
             height: 100vh;
             background-color: #f4f4f4;
         }
-        
-        /* SIDEBAR STYLING */
+
         .sidebar {
             width: 250px;
             background-color: #337ab7;
@@ -65,7 +64,6 @@
             letter-spacing: 1px;
             color: rgba(255, 255, 255, 0.6);
         }
-        /* MAIN CONTENT STYLING */
         .main-wrapper { flex-grow: 1; display: flex; flex-direction: column; }
         header { height: 50px; background-color: #343a40; display: flex; align-items: center; justify-content: space-between; padding: 0 20px; color: white; }
         .content-area { padding: 25px; }
@@ -108,21 +106,16 @@
         </div>
         
         <nav>
-            <!-- Link ke Dashboard -->
-            <a href="Dashboard.html"><i class="fa fa-tachometer-alt"></i> Dashboard</a>
-            
-            <!-- Link Inventory Barang (Active) -->
-            <a href="inventoriBarang.html" class="active"><i class="fa fa-box"></i> Inventory</a>
-            
-            <div class="section-label">Transaksi</div>
-            <a href="Pembelian.html"><i class="fa fa-shopping-cart"></i> Pembelian</a>
-            <a href="penjualan.html"><i class="fa fa-file-invoice"></i> Penjualan</a>
-            
-            <div class="section-label">Report</div>
-            <!-- Link ke Laporan Pembelian -->
-            <a href="LaporanPembelian.html"><i class="fa fa-file-invoice"></i> Laporan Pembelian</a>
-            <!-- Link ke Laporan Penjualan -->
-            <a href="LaporanPenjualan.html"><i class="fa fa-chart-bar"></i> Laporan Penjualan</a>
+        <a href="Dashboard.html"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+        <a href="inventoriBarang.html"><i class="fas fa-boxes-stacked"></i> Inventori</a>
+        
+        <h3>Transaksi</h3>
+        <a href="Pembelian.html"><i class="fas fa-shopping-cart"></i> Pembelian</a>
+        <a href="Penjualan.html"><i class="fas fa-file-invoice"></i> Penjualan</a>
+        
+        <h3>Report</h3>
+        <a href="LaporanPembelian.html"><i class="fas fa-chart-line"></i> Laporan Pembelian</a>
+        <a href="LaporanPenjualan.html"><i class="fas fa-chart-bar"></i> Laporan Penjualan</a>
         </nav>
     </aside>
 
